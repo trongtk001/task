@@ -1,0 +1,80 @@
+.features-edit {
+  background: #f3f3f3;
+  border-radius: 5px;
+  width: 770px;
+  padding: 0 20px;
+}
+
+.features-edit p {
+  font-family: "Manjari";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 10px 0;
+}
+
+.features-edit input,
+.features-edit textarea {
+  width: 410px;
+}
+
+.features-edit textarea {
+    height: 114px;
+}
+
+.features-edit img {
+  width: 268px;
+  height: 268px;
+  box-shadow: -8px 8px 26px rgb(0 0 0 / 24%);
+  border-radius: 2px;
+}
+
+.features-edit .content-w {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.features-edit span {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #18c4ee;
+}
+
+
+.features-edit .feature-list {
+  overflow-y: scroll;
+  height: 550px;
+}
+
+.features-edit .feature-list > div {
+  margin-bottom: 20px;
+}
+
+/* width */
+.features-edit .feature-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.features-edit .feature-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.features-edit .feature-list::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.features-edit .feature-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.507);
+}
